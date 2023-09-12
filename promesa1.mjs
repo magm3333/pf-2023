@@ -25,4 +25,4 @@ const resultado=await fetchUserData(1);
 console.log("Resultado ");
 console.log(resultado);
 
-console.log("Fin del código, esperando 2 segundos...")
+console.log("Fin del código")
