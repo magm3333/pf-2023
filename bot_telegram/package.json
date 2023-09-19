@@ -1,0 +1,15 @@
+{
+  "name": "bot_telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "TOKEN=aaaa node app.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "telegraf": "^4.13.1"
+  }
+}
