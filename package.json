@@ -1,5 +1,10 @@
 {
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "canvas": "^2.11.2",
+    "jimp": "^0.22.10",
+    "jsdom": "^22.1.0",
+    "mqtt": "^5.1.4",
+    "node-fetch": "^3.3.2",
+    "opencv.js": "^1.2.1"
   }
 }
