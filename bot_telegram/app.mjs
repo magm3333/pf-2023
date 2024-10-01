@@ -3,6 +3,8 @@
 // y la envíe al bot
 //TIP: se puede usar el ejemplo de fswebcam  
 
+// Cree un módulo que permita hacer una pasarela entre Telegram y el Agente MQTT del TP anterior
+
 // Documentación modulo telegraf: https://telegraf.js.org/
 
 import {Telegraf} from 'telegraf'

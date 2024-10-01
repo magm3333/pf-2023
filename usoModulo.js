@@ -1,3 +1,3 @@
-let miModulo=require('.demoGlobal');
-miModulo.setVariableGlobal(33);
-console.log(miModulo.getVariableGlobal()*2);
+let miModulo=require('./miModulo');
+miModulo.setVariable(33);
+console.log(miModulo.getVariable()*2);

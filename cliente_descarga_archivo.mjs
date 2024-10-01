@@ -14,7 +14,7 @@ const puerto=process.env.PUERTO_SERVER || 6666;
 
 
 const cliente=net.connect({port: puerto, address:'localhost'},()=>{
-    console.log('Conetado!');
+    console.log('Conectado!');
     cliente.write('get file');
 });
 

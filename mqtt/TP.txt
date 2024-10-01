@@ -43,7 +43,7 @@ Ejemplo: topic:"response/commands/agente86/help", respuesta:
     ]
    }
 
-2) Crear un programa que reciba como parámetros:
+2) Crear un programa (cliente CLP) que reciba como parámetros:
    -h [mqtt_host]
    -p [mqtt_port]
    -u [username]
@@ -77,3 +77,7 @@ agente86> help
 help: Lista de comandos disponibles
 ls: Lista los archivos y carpetas del path especificado, ej: ls /algun/path 
 quit: salir
+
+
+Importante!, crear un mecanismo para evitar que cuando se ejecute más de un CLP, 
+las respuestas no sean recibidas por todos los clientes y solo sea procesada por el CLP que la emitió 

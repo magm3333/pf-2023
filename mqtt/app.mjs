@@ -1,5 +1,9 @@
 import mqtt from 'mqtt';
 
+
+//mosquitto_sub -t test -h magm.mooo.com -u ubuntu -P ubuntu
+//mosquitto_pub -t test -m 'Hola mundo!'  -h magm.mooo.com -u ubuntu -P ubuntu
+
 const host = process.env.HOST || 'magm.mooo.com';
 const port = process.env.PORT || '1883';
 
@@ -20,6 +24,7 @@ const clientConfig={
     reconnectPeriod: 1000
 };
 
+console.log("Conectando....")
 const client=mqtt.connect(connectUrl, clientConfig);
 
 const topic = 'test';

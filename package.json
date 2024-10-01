@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@sashido/teachablemachine-node": "^1.2.2",
     "canvas": "^2.11.2",
     "jimp": "^0.22.10",
     "jsdom": "^22.1.0",
